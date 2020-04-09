@@ -144,6 +144,76 @@ public class AppTest {
     }
 
     @Test
+    public void testAddStudent_7() { // group = -1
+        int length = studentRepository.getSize();
+        String[] params = {"12", "Student_test", "-1", "email_test@scs.ro", "prof_1"};
+        try {
+            service_student.add(params);
+            Assert.fail("Grupa invalid\n");
+        } catch (ValidatorException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        assertTrue(studentRepository.getSize() == length);
+    }
+
+    @Test
+    public void testAddStudent_8() { // group = 1
+        int length = studentRepository.getSize();
+        String[] params = {"12", "Student_test", "1", "email_test@scs.ro", "prof_1"};
+        try {
+            service_student.add(params);
+        } catch (ValidatorException ex) {
+            //System.out.println(ex.getMessage());
+            Assert.fail();
+        }
+        assertTrue(studentRepository.getSize() == length + 1);
+        assertEquals(studentRepository.findOne("12").getNume(), "Student_test");
+    }
+
+    @Test
+    public void testAddStudent_9() { // id = 1
+        int length = studentRepository.getSize();
+        String[] params = {"1", "Student_test", "932", "email_test@scs.ro", "prof_1"};
+        try {
+            service_student.add(params);
+        } catch (ValidatorException ex) {
+            //System.out.println(ex.getMessage());
+            Assert.fail();
+        }
+        assertTrue(studentRepository.getSize() == length + 1);
+        assertEquals(studentRepository.findOne("1").getNume(), "Student_test");
+    }
+
+    @Test
+    public void testAddStudent_10() { // email = e
+        int length = studentRepository.getSize();
+        String[] params = {"12", "Student_test", "932", "e", "prof_1"};
+        try {
+            service_student.add(params);
+        } catch (ValidatorException ex) {
+            //System.out.println(ex.getMessage());
+            Assert.fail();
+        }
+        assertTrue(studentRepository.getSize() == length + 1);
+        assertEquals(studentRepository.findOne("12").getNume(), "Student_test");
+    }
+
+    @Test
+    public void testAddStudent_11() { // prof = p
+        int length = studentRepository.getSize();
+        String[] params = {"12", "Student_test", "932", "email_test@scs.ro", "p"};
+        try {
+            service_student.add(params);
+        } catch (ValidatorException ex) {
+            //System.out.println(ex.getMessage());
+            Assert.fail();
+        }
+        assertTrue(studentRepository.getSize() == length + 1);
+        assertEquals(studentRepository.findOne("12").getNume(), "Student_test");
+    }
+
+    @Test
     public void testAddAssignmentIdNotValid() {
         int length = temaRepository.getSize();
         String[] params = {null, "tema_noId", "5", "5"};
