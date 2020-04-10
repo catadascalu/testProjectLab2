@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8a9ec8-2f3f-43d2-b4de-e1aa0223cbcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="315" column="5" lean-forward="true" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="5" />
+            <state relative-caret-position="142">
+              <caret line="303" column="52" selection-start-line="303" selection-start-column="52" selection-end-line="303" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -329,7 +326,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586507942100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586508158269" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -449,6 +446,14 @@
       <workItem from="1585932031513" duration="599000" />
       <workItem from="1586436691812" duration="2994000" />
     </task>
+    <task id="LOCAL-00001" summary="added tests for all invalid cases - add assignment">
+      <created>1586508132159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586508132159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -478,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9574000" />
+    <option name="totallyTimeSpent" value="9909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -549,6 +554,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added tests for all invalid cases - add assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for all invalid cases - add assignment" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -648,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="315" column="5" lean-forward="true" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="5" />
+        <state relative-caret-position="142">
+          <caret line="303" column="52" selection-start-line="303" selection-start-column="52" selection-end-line="303" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

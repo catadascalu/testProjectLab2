@@ -242,7 +242,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentDescriptionNotValid() {
+    public void testAddAssignmentDescriptionNotValid_3() {
         int length = temaRepository.getSize();
         String[] params = {"13", "", "5", "5"};
         try {
@@ -256,7 +256,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentWeekNotValid(){
+    public void testAddAssignmentWeekNotValid_4(){
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_sapt", "6", "0"};
         try{
@@ -271,7 +271,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentWeekNotValid2(){
+    public void testAddAssignmentWeekNotValid2_5(){
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_sapt", "6", "15"};
         try{
@@ -286,7 +286,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentDeadlineNotValid(){
+    public void testAddAssignmentDeadlineNotValid_6(){
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_deadline", "0", "5"};
         try{
@@ -301,7 +301,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentDeadlineNotValid2(){
+    public void testAddAssignmentDeadlineNotValid2_7(){
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_deadline", "15", "5"};
         try{
