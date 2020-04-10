@@ -20,7 +20,7 @@ public class TemaLabXMLRepo extends AbstractXMLRepo<Integer, TemaLab> {
         e.appendChild(createElement("id", document, t.getId().toString()));
         e.appendChild(createElement("descriere", document, t.getDescriere()));
         e.appendChild(createElement("saptamanaLimita", document, Integer.toString(t.getTermenLimita())));
-        e.appendChild(createElement("saptamanaPredarii", document, Integer.toString(t.getSaptammanaPredarii())));
+        e.appendChild(createElement("saptamanaPredarii", document, Integer.toString(t.getSaptamanaPredarii())));
         return e;
     }
 

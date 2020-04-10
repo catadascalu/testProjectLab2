@@ -20,9 +20,9 @@ public class NotaXMLService extends AbstractXMLService<Integer,Nota>{
         System.out.println(t);
         //Nota n=this.findOne(Integer.parseInt(idn));
         //System.out.println(n);
-        String val1=Double.toString(Double.parseDouble(val)-(t.getSaptammanaPredarii()-t.getTermenLimita())*2.5);
+        String val1=Double.toString(Double.parseDouble(val)-(t.getSaptamanaPredarii()-t.getTermenLimita())*2.5);
         System.out.println(val1);
-        //Nota n1=new Nota(idn,n.getStudentId(),idt,n.getValoare()-(t.getSaptammanaPredarii()-t.getTermenLimita()),n.getLdt());
+        //Nota n1=new Nota(idn,n.getStudentId(),idt,n.getValoare()-(t.getSaptamanaPredarii()-t.getTermenLimita()),n.getLdt());
         return val1;
     }
 
@@ -32,7 +32,7 @@ public class NotaXMLService extends AbstractXMLService<Integer,Nota>{
             try {
                 out.writeChars("Tema: "+n.getTemaLabId()+
                         "\nNota: "+n.getValoare()+
-                        "\nPredata in saptamana: "+srv.findOne(n.getTemaLabId()).getSaptammanaPredarii()+
+                        "\nPredata in saptamana: "+srv.findOne(n.getTemaLabId()).getSaptamanaPredarii()+
                         "\nDeadline: "+srv.findOne(n.getTemaLabId()).getTermenLimita()+
                         "\nFeedback: Se putea si mai bine!\n\n\n");
             } catch (IOException e) {

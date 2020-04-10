@@ -11,7 +11,7 @@ public class TemaLabRepo extends AbstractCrudRepo<Integer,TemaLab> {
     }
 
     public void prelungireTermenLimita(TemaLab t,int saptCurenta){
-        if(saptCurenta<=t.getSaptammanaPredarii()){
+        if(saptCurenta<=t.getSaptamanaPredarii()){
             t.setTermenLimita(t.getTermenLimita()+1);
             update(t);
         }
