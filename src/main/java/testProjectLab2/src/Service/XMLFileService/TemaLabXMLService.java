@@ -21,7 +21,14 @@ public class TemaLabXMLService extends AbstractXMLService<Integer,TemaLab>{
     }
     @Override
     protected TemaLab extractEntity(String[] params){
-        return new TemaLab(Integer.parseInt(params[0]),params[1],Integer.parseInt(params[2]),Integer.parseInt(params[3]));
+        int id;
+        try{
+            id = Integer.parseInt(params[0]);
+        }
+        catch(NumberFormatException ex){
+            id = -1;
+        }
+        return new TemaLab(id,params[1],Integer.parseInt(params[2]),Integer.parseInt(params[3]));
     }
 
 }

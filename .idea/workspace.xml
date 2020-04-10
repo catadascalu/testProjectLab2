@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8a9ec8-2f3f-43d2-b4de-e1aa0223cbcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,8 +20,65 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="207" column="41" lean-forward="true" selection-start-line="207" selection-start-column="41" selection-end-line="207" selection-end-column="41" />
+            <state relative-caret-position="346">
+              <caret line="315" column="5" lean-forward="true" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Domain/TemaLab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/StudentXMLService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,10 +93,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/AbstractXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="272">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/NotaXMLService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/TxtFileService/NotaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,21 +137,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/StudentValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1264" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="732" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -75,6 +168,11 @@
             <path>
               <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -106,6 +204,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
@@ -125,7 +233,51 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+              <item name="MemoryRepository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+              <item name="XMLFileRepository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="TxtFileService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProjectLab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="XMLFileService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testProjectLab2" type="b2602c69:ProjectViewProjectNode" />
@@ -172,13 +324,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586441970715" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586507942100" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -192,6 +343,97 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.testAddAssignmentDeadlineNotValid2">
+    <configuration name="AppTest.testAddAssignmentDeadlineNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProjectLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProjectLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProjectLab2" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentDeadlineNotValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAddAssignmentDeadlineNotValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProjectLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProjectLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProjectLab2" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentDeadlineNotValid2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAddAssignmentDescriptionNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProjectLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProjectLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProjectLab2" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentDescriptionNotValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAddAssignmentWeekNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProjectLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProjectLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProjectLab2" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentWeekNotValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAddAssignmentWeekNotValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProjectLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProjectLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProjectLab2" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
+      <option name="METHOD_NAME" value="testAddAssignmentWeekNotValid2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.testAddAssignmentDeadlineNotValid2" />
+        <item itemvalue="JUnit.AppTest.testAddAssignmentDeadlineNotValid" />
+        <item itemvalue="JUnit.AppTest.testAddAssignmentWeekNotValid2" />
+        <item itemvalue="JUnit.AppTest.testAddAssignmentWeekNotValid" />
+        <item itemvalue="JUnit.AppTest.testAddAssignmentDescriptionNotValid" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,14 +451,40 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_testAddAssignmentIdNotValid - 2020.04.10 at 11h 29m 32s.xml">
+      <configuration name="AppTest.testAddAssignmentIdNotValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentIdNotValid - 2020.04.10 at 11h 30m 41s.xml">
+      <configuration name="AppTest.testAddAssignmentIdNotValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentDescriptionNotValid - 2020.04.10 at 11h 31m 47s.xml">
+      <configuration name="AppTest.testAddAssignmentDescriptionNotValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentWeekNotValid - 2020.04.10 at 11h 35m 46s.xml">
+      <configuration name="AppTest.testAddAssignmentWeekNotValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentWeekNotValid - 2020.04.10 at 11h 37m 01s.xml">
+      <configuration name="AppTest.testAddAssignmentWeekNotValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentWeekNotValid2 - 2020.04.10 at 11h 37m 28s.xml">
+      <configuration name="AppTest.testAddAssignmentWeekNotValid2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentDeadlineNotValid - 2020.04.10 at 11h 38m 58s.xml">
+      <configuration name="AppTest.testAddAssignmentDeadlineNotValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddAssignmentDeadlineNotValid2 - 2020.04.10 at 11h 39m 04s.xml">
+      <configuration name="AppTest.testAddAssignmentDeadlineNotValid2" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8437000" />
+    <option name="totallyTimeSpent" value="9574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1011" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17770767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19352227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -225,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -233,8 +501,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49959514" weight="0.06394316" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50121456" side_tool="true" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,6 +514,38 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17813765" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3339254" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.053285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven-2 Build" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -263,8 +563,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/AbstractXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -272,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -296,6 +592,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/TemaLabXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/TemaLabValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Service/XMLFileService/StudentXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Repository/MemoryRepository/TemaLabRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Validator/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -305,8 +648,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="207" column="41" lean-forward="true" selection-start-line="207" selection-start-column="41" selection-end-line="207" selection-end-column="41" />
+        <state relative-caret-position="346">
+          <caret line="315" column="5" lean-forward="true" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
