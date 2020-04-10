@@ -213,22 +213,9 @@ public class AppTest {
         assertEquals(studentRepository.findOne("12").getNume(), "Student_test");
     }
 
-    @Test
-    public void testAddAssignmentIdNotValid() {
-        int length = temaRepository.getSize();
-        String[] params = {"", "tema_noId", "5", "5"};
-        try {
-            service_tema.add(params);
-            Assert.fail("Nr tema invalid\n");
-        } catch (ValidatorException ex) {
-            System.out.println(ex.getMessage());
-        }
-
-        assertTrue(temaRepository.getSize() == length);
-    }
 
     @Test
-    public void testAddAssignmentIdValid() {
+    public void testAddAssignmentIdValid() { //all params valid
         int length = temaRepository.getSize();
         String[] params = {"11", "tema_test", "6", "6"};
         try {
@@ -242,7 +229,35 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentDescriptionNotValid_3() {
+    public void testAddAssignmentIdNotValid() { //id = ""
+        int length = temaRepository.getSize();
+        String[] params = {"", "tema_noId", "5", "5"};
+        try {
+            service_tema.add(params);
+            Assert.fail("Nr tema invalid\n");
+        } catch (ValidatorException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        assertTrue(temaRepository.getSize() == length);
+    }
+
+    @Test
+    public void testAddAssignmentIdNotValid_3() { //id = null
+        int length = temaRepository.getSize();
+        String[] params = {null, "tema_noId", "5", "5"};
+        try {
+            service_tema.add(params);
+            Assert.fail("Nr tema invalid\n");
+        } catch (ValidatorException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        assertTrue(temaRepository.getSize() == length);
+    }
+
+    @Test
+    public void testAddAssignmentDescriptionNotValid_4() { //description = ""
         int length = temaRepository.getSize();
         String[] params = {"13", "", "5", "5"};
         try {
@@ -256,7 +271,21 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentWeekNotValid_4(){
+    public void testAddAssignmentDescriptionNotValid_5() { //description = null
+        int length = temaRepository.getSize();
+        String[] params = {"13", null, "5", "5"};
+        try {
+            service_tema.add(params);
+            Assert.fail("Descriere tema invalida\n");
+        } catch (ValidatorException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        assertTrue(temaRepository.getSize() == length);
+    }
+
+    @Test
+    public void testAddAssignmentWeekNotValid_6(){ //saptamanaPredarii = 0
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_sapt", "6", "0"};
         try{
@@ -271,7 +300,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentWeekNotValid2_5(){
+    public void testAddAssignmentWeekNotValid2_7(){ //saptamanaPredarii = 15
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_sapt", "6", "15"};
         try{
@@ -286,7 +315,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentDeadlineNotValid_6(){
+    public void testAddAssignmentDeadlineNotValid_8(){ //termenLimita = 0
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_deadline", "0", "5"};
         try{
@@ -301,7 +330,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddAssignmentDeadlineNotValid2_7(){
+    public void testAddAssignmentDeadlineNotValid2_9(){ //termenLimita = 15
         int length = temaRepository.getSize();
         String[] params = {"14", "tema_lab_deadline", "15", "5"};
         try{
