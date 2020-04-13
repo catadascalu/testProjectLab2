@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><inbox><student><id>12</id><nume>Student_test</nume><grupa>932</grupa><email>email_test@scs.ro</email><profesor>p</profesor></student></inbox>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><inbox><student><id>1</id><nume>Student_test</nume><grupa>932</grupa><email>email_test@scs.ro</email><profesor>prof_1</profesor></student><student><id>2</id><nume>Student_test2</nume><grupa>932</grupa><email>email_test@scs.ro</email><profesor>prof_1</profesor></student></inbox>

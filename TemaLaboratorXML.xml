@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><inbox><tema><id>11</id><descriere>tema_test</descriere><saptamanaLimita>6</saptamanaLimita><saptamanaPredarii>6</saptamanaPredarii></tema></inbox>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><inbox><tema><id>1</id><descriere>tema_test</descriere><saptamanaLimita>2</saptamanaLimita><saptamanaPredarii>2</saptamanaPredarii></tema><tema><id>2</id><descriere>tema_test2</descriere><saptamanaLimita>3</saptamanaLimita><saptamanaPredarii>3</saptamanaPredarii></tema></inbox>

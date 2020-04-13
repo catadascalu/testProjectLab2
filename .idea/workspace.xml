@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8a9ec8-2f3f-43d2-b4de-e1aa0223cbcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NotaXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemaLaboratorXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TemaLaboratorXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="228" selection-end-column="5" />
+            <state relative-caret-position="851">
+              <caret line="188" column="21" selection-start-line="188" selection-start-column="21" selection-end-line="188" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="302">
+              <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,10 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/src/Domain/TemaLab.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -344,7 +346,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586769562478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586770985382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -359,8 +361,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testAddAssignmentIdNotValid_10">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IntegrationTest.testIntegrationBigBang">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.Main" />
       <module name="testProjectLab2" />
       <extension name="coverage">
         <pattern>
@@ -368,14 +371,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testProjectLab2" />
-      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddAssignmentDeadlineNotValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testAddStudent_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testProjectLab2" />
       <extension name="coverage">
         <pattern>
@@ -385,13 +385,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="testProjectLab2" />
       <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentDeadlineNotValid2" />
+      <option name="METHOD_NAME" value="testAddStudent_10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddAssignmentDescriptionNotValid_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testAddStudent_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testProjectLab2" />
       <extension name="coverage">
         <pattern>
@@ -401,13 +401,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="testProjectLab2" />
       <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentDescriptionNotValid_5" />
+      <option name="METHOD_NAME" value="testAddStudent_9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddAssignmentIdNotValid_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.testAddGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testProjectLab2" />
       <extension name="coverage">
         <pattern>
@@ -416,14 +416,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testProjectLab2" />
-      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentIdNotValid_10" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.IntegrationTest" />
+      <option name="METHOD_NAME" value="testAddGrade" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddAssignmentIdNotValid_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.testIntegrationBigBang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testProjectLab2" />
       <extension name="coverage">
         <pattern>
@@ -432,8 +432,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testProjectLab2" />
-      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddAssignmentIdNotValid_3" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.IntegrationTest" />
+      <option name="METHOD_NAME" value="testIntegrationBigBang" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -441,11 +441,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testAddAssignmentIdNotValid_10" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testAddAssignmentDescriptionNotValid_5" />
-        <item itemvalue="JUnit.AppTest.testAddAssignmentIdNotValid_3" />
-        <item itemvalue="JUnit.AppTest.testAddAssignmentDeadlineNotValid2" />
+        <item itemvalue="JUnit.IntegrationTest.testIntegrationBigBang" />
+        <item itemvalue="JUnit.IntegrationTest.testAddGrade" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AppTest.testAddStudent_10" />
+        <item itemvalue="JUnit.AppTest.testAddStudent_9" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +465,7 @@
       <workItem from="1586599176713" duration="715000" />
       <workItem from="1586628781701" duration="36000" />
       <workItem from="1586766665922" duration="342000" />
-      <workItem from="1586768633005" duration="798000" />
+      <workItem from="1586768633005" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="added tests for all invalid cases - add assignment">
       <created>1586508132159</created>
@@ -506,45 +506,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testAddAssignmentDescriptionNotValid - 2020.04.10 at 11h 31m 47s.xml">
-      <configuration name="AppTest.testAddAssignmentDescriptionNotValid" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudent_10 - 2020.04.13 at 12h 24m 06s.xml">
+      <configuration name="AppTest.testAddStudent_10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentWeekNotValid - 2020.04.10 at 11h 35m 46s.xml">
-      <configuration name="AppTest.testAddAssignmentWeekNotValid" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 33m 23s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentWeekNotValid - 2020.04.10 at 11h 37m 01s.xml">
-      <configuration name="AppTest.testAddAssignmentWeekNotValid" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 35m 56s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentWeekNotValid2 - 2020.04.10 at 11h 37m 28s.xml">
-      <configuration name="AppTest.testAddAssignmentWeekNotValid2" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 36m 20s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentDeadlineNotValid - 2020.04.10 at 11h 38m 58s.xml">
-      <configuration name="AppTest.testAddAssignmentDeadlineNotValid" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 36m 39s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentDeadlineNotValid2 - 2020.04.10 at 11h 39m 04s.xml">
-      <configuration name="AppTest.testAddAssignmentDeadlineNotValid2" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 36m 51s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentIdNotValid_3 - 2020.04.10 at 11h 54m 44s.xml">
-      <configuration name="AppTest.testAddAssignmentIdNotValid_3" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 39m 39s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentDescriptionNotValid_5 - 2020.04.10 at 11h 55m 32s.xml">
-      <configuration name="AppTest.testAddAssignmentDescriptionNotValid_5" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testAddGrade - 2020.04.13 at 12h 39m 59s.xml">
+      <configuration name="IntegrationTest.testAddGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.10 at 12h 45m 32s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testIntegrationBigBang - 2020.04.13 at 12h 43m 00s.xml">
+      <configuration name="IntegrationTest.testIntegrationBigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddAssignmentIdNotValid_10 - 2020.04.13 at 11h 32m 28s.xml">
-      <configuration name="AppTest.testAddAssignmentIdNotValid_10" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_testIntegrationBigBang - 2020.04.13 at 12h 43m 02s.xml">
+      <configuration name="IntegrationTest.testIntegrationBigBang" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15790000" />
+    <option name="totallyTimeSpent" value="17207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -553,8 +553,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.27531084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.45609066" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -563,7 +563,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49959514" weight="0.06394316" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50121456" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -754,18 +754,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="228" selection-end-column="5" />
+        <state relative-caret-position="851">
+          <caret line="188" column="21" selection-start-line="188" selection-start-column="21" selection-end-line="188" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testProjectLab2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="302">
+          <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
