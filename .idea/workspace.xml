@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e8a9ec8-2f3f-43d2-b4de-e1aa0223cbcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotaXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NotaXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemaLaboratorXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TemaLaboratorXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9e8a9ec8-2f3f-43d2-b4de-e1aa0223cbcb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+            <state relative-caret-position="251">
+              <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -346,7 +340,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586770985382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586772373740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -361,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest.testIntegrationBigBang">
+  <component name="RunManager" selected="JUnit.IntegrationTest.testAddStudentToRepository">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testProjectLab2.Main" />
       <module name="testProjectLab2" />
@@ -391,22 +385,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddStudent_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testProjectLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testProjectLab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testProjectLab2" />
-      <option name="MAIN_CLASS_NAME" value="testProjectLab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudent_9" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntegrationTest.testAddGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testProjectLab2" />
       <extension name="coverage">
@@ -418,6 +396,22 @@
       <option name="PACKAGE_NAME" value="testProjectLab2" />
       <option name="MAIN_CLASS_NAME" value="testProjectLab2.IntegrationTest" />
       <option name="METHOD_NAME" value="testAddGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testAddStudentToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProjectLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProjectLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProjectLab2" />
+      <option name="MAIN_CLASS_NAME" value="testProjectLab2.IntegrationTest" />
+      <option name="METHOD_NAME" value="testAddStudentToRepository" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -441,11 +435,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest.testAddStudentToRepository" />
         <item itemvalue="JUnit.IntegrationTest.testIntegrationBigBang" />
         <item itemvalue="JUnit.IntegrationTest.testAddGrade" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AppTest.testAddStudent_10" />
-        <item itemvalue="JUnit.AppTest.testAddStudent_9" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +459,7 @@
       <workItem from="1586599176713" duration="715000" />
       <workItem from="1586628781701" duration="36000" />
       <workItem from="1586766665922" duration="342000" />
-      <workItem from="1586768633005" duration="2215000" />
+      <workItem from="1586768633005" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="added tests for all invalid cases - add assignment">
       <created>1586508132159</created>
@@ -538,7 +532,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17207000" />
+    <option name="totallyTimeSpent" value="18465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -553,7 +547,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.45609066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.21388102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -771,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testProjectLab2/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+        <state relative-caret-position="251">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
