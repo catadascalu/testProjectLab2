@@ -343,4 +343,19 @@ public class AppTest {
 
         assertTrue(temaRepository.getSize() == length);
     }
+
+    @Test
+    public void testAddAssignmentIdNotValid_10() { //id = "-1"
+        int length = temaRepository.getSize();
+        String[] params = {"-1", "tema_noId", "5", "5"};
+        try {
+            service_tema.add(params);
+            Assert.fail("Nr tema invalid\n");
+        } catch (ValidatorException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        assertTrue(temaRepository.getSize() == length);
+    }
+
 }
